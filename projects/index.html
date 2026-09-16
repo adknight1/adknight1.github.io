@@ -23,6 +23,22 @@
 </head>
 
 <body>
-    <iframe src="Project%20Portfolio%20Alexander%20Knight%209152026.pdf"></iframe>
+
+<iframe
+    id="pdfViewer"
+    src="Project%20Portfolio%20Alexander%20Knight%209152026.pdf">
+</iframe>
+
+<script>
+    const isMobile =
+        /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        window.location.replace(
+            "Project%20Portfolio%20Alexander%20Knight%209152026.pdf"
+        );
+    }
+</script>
+
 </body>
 </html>
